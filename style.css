@@ -11,10 +11,8 @@ h1{
 }
 
 .bar{
-    opacity: none;
   	overflow: hidden;
   	background-color: #90c4ff99;
-  	position: fixed;
     width: 100%;
     font-size: 28px;
     font-family: 'Bebas Neue',cursive;
