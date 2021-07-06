@@ -1,11 +1,117 @@
 
 body{
     font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
 }
-
 h1{
-    font-size: 100px;
+    font-size: 40px;
 }
 .name{
     color: forestgreen;
+}
+
+.bar{
+    opacity: none;
+  	overflow: hidden;
+  	background-color: #90c4ff99;
+  	position: fixed;
+    width: 100%;
+    font-size: 28px;
+    font-family: 'Bebas Neue',cursive;
+}
+.bar a {
+    float: right;
+    display: block;
+    color:rgb(65, 102, 225);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 300px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.half-width img{
+    width: 60%;
+    height:420px;
+    
+}
+.half-width p{
+    font-size:large;
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(45, 142, 233);
+    background-image: linear-gradient(rgb(45, 142, 233),skyblue);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.midpart{
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: centre;
+    height:470px;
+}
+.food{
+    width: 60%;
+    height: 160%;
+    box-shadow: 10px 10px 10px 10px grey;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 10px;
+
+}
+.social{
+    width:35%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 12%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.social h1{
+    font-size: 350%;
+    font-weight:600;
+}
+
+.food img{
+    width: 100%;
+    height:300px;
+    border-radius: 10px;
+}
+.myrecipes{
+    text-align: center;
+    color: grey;
+    font-weight: 400px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: grey;
+    margin-bottom: 0;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.box{
+    box-shadow: 10px 10px 10px 10px grey;
+    width: 85%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
